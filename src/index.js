@@ -1,6 +1,6 @@
 require("dotenv").config();
 const express = require("express");
-const knex = require("./conexao");
+// const knex = require("./conexao");
 const app = express();
 app.use(express.json());
 

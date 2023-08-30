@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", async (req, res) => {
-  return res.status(200).json({ message: "api tudo ok" });
+  return res.status(200).json("api tudo ok");
 });
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
